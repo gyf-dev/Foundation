@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EdgeTransparentView">
+        <attr name="edge_maskPosition">
+            <flag name="none" value="1" />
+            <flag name="top" value="2" />
+            <flag name="bottom" value="4" />
+            <flag name="left" value="8" />
+            <flag name="right" value="16" />
+            <flag name="all" value="32" />
+        </attr>
+        <attr name="edge_maskSize" format="dimension" />
+        <attr name="edge_edgeStartColor" format="color" />
+        <attr name="edge_edgeEndColor" format="color" />
+    </declare-styleable>
+</resources>

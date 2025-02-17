@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_anti_repeat_click" type="id" />
+    <item name="window_decor_view" type="id" />
+    <item name="so_markdown" type="id" />
+</resources>

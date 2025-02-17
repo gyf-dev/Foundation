@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 网络权限组 -->
+    <!-- Network permissions group -->
+    <!-- 访问网络状态权限 -->
+    <!-- Access network state permission -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 互联网权限 -->
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 蓝牙权限组 -->
+    <!-- Bluetooth permissions group -->
+    <!-- 蓝牙连接权限 -->
+    <!-- Bluetooth connect permission -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <!-- 通知权限组 -->
+    <!-- Notification permissions group -->
+    <!-- 发布通知权限 -->
+    <!-- Post notifications permission -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- 服务权限组 -->
+    <!-- Service permissions group -->
+    <!-- 前台服务权限 -->
+    <!-- Foreground service permission -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- 电话权限组 -->
+    <!-- Phone permissions group -->
+    <!-- 读取电话状态权限 -->
+    <!-- Read phone state permission -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application>
+        <provider
+            android:name="com.gyf.foundation.provider.FoundationContentProvider"
+            android:authorities="${applicationId}.com.gyf.foundation.provider.FoundationContentProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

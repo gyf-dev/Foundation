@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FeatherEffectTextView">
+        <attr name="effect_Enabled" format="boolean" />
+        <attr name="effect_StartColor" format="color" />
+        <attr name="effect_EndColor" format="color" />
+    </declare-styleable>
+</resources>
