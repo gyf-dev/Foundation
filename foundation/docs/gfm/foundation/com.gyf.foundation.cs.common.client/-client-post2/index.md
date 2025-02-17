@@ -1,0 +1,28 @@
+//[foundation](../../../index.md)/[com.gyf.foundation.cs.common.client](../index.md)/[ClientPost2](index.md)
+
+# ClientPost2
+
+[androidJvm]\
+class [ClientPost2](index.md) : [IClientPost2](../../com.gyf.foundation.cs.common.client.face/-i-client-post2/index.md)
+
+#### Author
+
+Ifan.Ge
+
+## Constructors
+
+| | |
+|---|---|
+| [ClientPost2](-client-post2.md) | [androidJvm]<br>constructor() |
+
+## Properties
+
+| Name | Summary |
+|---|---|
+| [_postAbsClient](_post-abs-client.md) | [androidJvm]<br>open override var [_postAbsClient](_post-abs-client.md): [AbsClient](../-abs-client/index.md)? |
+
+## Functions
+
+| Name | Summary |
+|---|---|
+| [post](post.md) | [androidJvm]<br>open override fun [post](post.md)(bundle: [Bundle](https://developer.android.com/reference/kotlin/android/os/Bundle.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>open override fun [post](post.md)(message: [Message](https://developer.android.com/reference/kotlin/android/os/Message.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>open override fun [post](post.md)(pair: [Pair](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-pair/index.html)&lt;[String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), [Any](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html)&gt;, result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>open override fun [post](post.md)(clientTag: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), message: [Message](https://developer.android.com/reference/kotlin/android/os/Message.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其数据<br>[androidJvm]<br>open override fun [post](post.md)(what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其what字段<br>[androidJvm]<br>open override fun [post](post.md)(what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), bundle: [Bundle](https://developer.android.com/reference/kotlin/android/os/Bundle.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>open override fun [post](post.md)(what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), pair: [Pair](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-pair/index.html)&lt;[String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), [Any](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html)&gt;, result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其what字段和数据<br>[androidJvm]<br>open override fun [post](post.md)(clientTag: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其what字段和clientTag<br>[androidJvm]<br>open override fun [post](post.md)(clientTag: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), bundle: [Bundle](https://developer.android.com/reference/kotlin/android/os/Bundle.html), result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其what字段、clientTag和数据<br>[androidJvm]<br>open override fun [post](post.md)(clientTag: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), what: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), pair: [Pair](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-pair/index.html)&lt;[String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), [Any](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-any/index.html)&gt;, result: ([Message](https://developer.android.com/reference/kotlin/android/os/Message.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>对于客户端异步获取服务端消息，消息将通过onResponse接口返回 对于服务端，消息通过response发送给客户端，指定其what字��、clientTag和数据 |

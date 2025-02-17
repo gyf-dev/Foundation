@@ -1,0 +1,13 @@
+//[foundation](../../index.md)/[com.gyf.foundation.ext.keyboard](index.md)
+
+# Package-level declarations
+
+## Functions
+
+| Name | Summary |
+|---|---|
+| [fixInputMethodManagerLeak](fix-input-method-manager-leak.md) | [androidJvm]<br>fun [Context](https://developer.android.com/reference/kotlin/android/content/Context.html).[fixInputMethodManagerLeak](fix-input-method-manager-leak.md)()<br>解决InputMethodManager导致的内存泄漏 |
+| [hideSoftKeyBoard](hide-soft-key-board.md) | [androidJvm]<br>fun [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html).[hideSoftKeyBoard](hide-soft-key-board.md)()<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[hideSoftKeyBoard](hide-soft-key-board.md)()<br>fun [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html).[hideSoftKeyBoard](hide-soft-key-board.md)()<br>隐藏软键盘 |
+| [isSoftInputShow](is-soft-input-show.md) | [androidJvm]<br>fun [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html).[isSoftInputShow](is-soft-input-show.md)(): [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html)<br>fun [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html).[isSoftInputShow](is-soft-input-show.md)(): [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html)<br>软键盘是否打开 |
+| [onKeyBoardListener](on-key-board-listener.md) | [androidJvm]<br>fun [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html).[onKeyBoardListener](on-key-board-listener.md)(block: (keyBoardHeight: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>fun [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html).[onKeyBoardListener](on-key-board-listener.md)(block: (keyBoardHeight: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>软键盘监听 |
+| [showSoftKeyBoard](show-soft-key-board.md) | [androidJvm]<br>fun [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html).[showSoftKeyBoard](show-soft-key-board.md)()<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[showSoftKeyBoard](show-soft-key-board.md)()<br>fun [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html).[showSoftKeyBoard](show-soft-key-board.md)()<br>显示软键盘 |

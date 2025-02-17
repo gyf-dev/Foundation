@@ -1,0 +1,13 @@
+//[foundation](../../../index.md)/[com.gyf.foundation.base.activity.nativer](../index.md)/[ComponentNativeActivity](index.md)/[registerForActivityResult](register-for-activity-result.md)
+
+# registerForActivityResult
+
+[androidJvm]\
+
+@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)
+
+fun &lt;[I](register-for-activity-result.md), [O](register-for-activity-result.md)&gt; [registerForActivityResult](register-for-activity-result.md)(@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)contract: [ActivityResultContract](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContract.html)&lt;[I](register-for-activity-result.md), [O](register-for-activity-result.md)&gt;, @[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)registry: [ActivityResultRegistry](https://developer.android.com/reference/kotlin/androidx/activity/result/ActivityResultRegistry.html), @[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)callback: [ActivityResultCallback](https://developer.android.com/reference/kotlin/androidx/activity/result/ActivityResultCallback.html)&lt;[O](register-for-activity-result.md)&gt;): [ActivityResultLauncher](https://developer.android.com/reference/kotlin/androidx/activity/result/ActivityResultLauncher.html)&lt;[I](register-for-activity-result.md)&gt;
+
+@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)
+
+fun &lt;[I](register-for-activity-result.md), [O](register-for-activity-result.md)&gt; [registerForActivityResult](register-for-activity-result.md)(@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)contract: [ActivityResultContract](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContract.html)&lt;[I](register-for-activity-result.md), [O](register-for-activity-result.md)&gt;, @[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)callback: [ActivityResultCallback](https://developer.android.com/reference/kotlin/androidx/activity/result/ActivityResultCallback.html)&lt;[O](register-for-activity-result.md)&gt;): [ActivityResultLauncher](https://developer.android.com/reference/kotlin/androidx/activity/result/ActivityResultLauncher.html)&lt;[I](register-for-activity-result.md)&gt;

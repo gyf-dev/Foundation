@@ -1,0 +1,6 @@
+//[foundation](../../../index.md)/[com.gyf.foundation.window.delegate](../index.md)/[IComponentRegistry](index.md)/[destroy](destroy.md)
+
+# destroy
+
+[androidJvm]\
+open fun [destroy](destroy.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html))

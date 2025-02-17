@@ -1,0 +1,11 @@
+//[foundation](../../index.md)/[com.gyf.foundation.view](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [EdgeTransparentView](-edge-transparent-view/index.md) | [androidJvm]<br>class [EdgeTransparentView](-edge-transparent-view/index.md)@[JvmOverloads](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html)constructor(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), attrs: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)?, defStyleAttr: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0) : [FrameLayout](https://developer.android.com/reference/kotlin/android/widget/FrameLayout.html) |
+| [FeatherEffectTextView](-feather-effect-text-view/index.md) | [androidJvm]<br>open class [FeatherEffectTextView](-feather-effect-text-view/index.md)@[JvmOverloads](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html)constructor(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), attrs: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)? = null, defStyleAttr: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0) : [TextView](https://developer.android.com/reference/kotlin/android/widget/TextView.html), [ITag](../com.gyf.foundation.ext.log/-i-tag/index.md) |
+| [TypewriterFadeTextView](-typewriter-fade-text-view/index.md) | [androidJvm]<br>class [TypewriterFadeTextView](-typewriter-fade-text-view/index.md)@[JvmOverloads](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html)constructor(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), attrs: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)? = null, defStyleAttr: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0) : [FeatherEffectTextView](-feather-effect-text-view/index.md) |

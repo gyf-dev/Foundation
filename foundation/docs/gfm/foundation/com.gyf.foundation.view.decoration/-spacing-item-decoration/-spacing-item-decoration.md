@@ -1,0 +1,6 @@
+//[foundation](../../../index.md)/[com.gyf.foundation.view.decoration](../index.md)/[SpacingItemDecoration](index.md)/[SpacingItemDecoration](-spacing-item-decoration.md)
+
+# SpacingItemDecoration
+
+[androidJvm]\
+constructor(leftSpacing: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, topSpacing: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, rightSpacing: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, bottomSpacing: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, offsetFirstItem: [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html) = true, offsetLastItem: [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html) = true, @[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)color: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = Color.TRANSPARENT)

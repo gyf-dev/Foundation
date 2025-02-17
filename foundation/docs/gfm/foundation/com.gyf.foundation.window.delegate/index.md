@@ -1,0 +1,13 @@
+//[foundation](../../index.md)/[com.gyf.foundation.window.delegate](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [DefaultComponent](-default-component/index.md) | [androidJvm]<br>class [DefaultComponent](-default-component/index.md) : [IComponent](-i-component/index.md) |
+| [FragmentHostCallbacks](-fragment-host-callbacks/index.md) | [androidJvm]<br>open class [FragmentHostCallbacks](-fragment-host-callbacks/index.md)&lt;[E](-fragment-host-callbacks/index.md) : [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), [IComponent](-i-component/index.md)&gt;(owner: [E](-fragment-host-callbacks/index.md), windowAnimations: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0) : [FragmentHostCallback](https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentHostCallback.html)&lt;[E](-fragment-host-callbacks/index.md)&gt; , [IComponent](-i-component/index.md) |
+| [IComponent](-i-component/index.md) | [androidJvm]<br>interface [IComponent](-i-component/index.md) : [ContextAware](https://developer.android.com/reference/kotlin/androidx/activity/contextaware/ContextAware.html), [LifecycleOwner](https://developer.android.com/reference/kotlin/androidx/lifecycle/LifecycleOwner.html), [ViewModelStoreOwner](https://developer.android.com/reference/kotlin/androidx/lifecycle/ViewModelStoreOwner.html), [HasDefaultViewModelProviderFactory](https://developer.android.com/reference/kotlin/androidx/lifecycle/HasDefaultViewModelProviderFactory.html), [SavedStateRegistryOwner](https://developer.android.com/reference/kotlin/androidx/savedstate/SavedStateRegistryOwner.html), [OnBackPressedDispatcherOwner](https://developer.android.com/reference/kotlin/androidx/activity/OnBackPressedDispatcherOwner.html), [OnConfigurationChangedProvider](https://developer.android.com/reference/kotlin/androidx/core/content/OnConfigurationChangedProvider.html), [OnTrimMemoryProvider](https://developer.android.com/reference/kotlin/androidx/core/content/OnTrimMemoryProvider.html), [OnNewWindowIntentProvider](../com.gyf.foundation.window.callback/-on-new-window-intent-provider/index.md), [IComponentRegistry](-i-component-registry/index.md), [IViewThreeRegistry](-i-view-three-registry/index.md)<br>IComponent接口，包含了一系列的生命周期方法和窗口相关的方法 IComponent interface, includes a series of lifecycle methods and window related methods |
+| [IComponentRegistry](-i-component-registry/index.md) | [androidJvm]<br>interface [IComponentRegistry](-i-component-registry/index.md) |
+| [IViewThreeRegistry](-i-view-three-registry/index.md) | [androidJvm]<br>interface [IViewThreeRegistry](-i-view-three-registry/index.md) |

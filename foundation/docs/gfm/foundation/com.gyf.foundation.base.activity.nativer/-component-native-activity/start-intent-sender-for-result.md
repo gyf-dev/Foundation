@@ -1,0 +1,16 @@
+//[foundation](../../../index.md)/[com.gyf.foundation.base.activity.nativer](../index.md)/[ComponentNativeActivity](index.md)/[startIntentSenderForResult](start-intent-sender-for-result.md)
+
+# startIntentSenderForResult
+
+[androidJvm]\
+open fun [~~startIntentSenderForResult~~](start-intent-sender-for-result.md)(@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)intent: [IntentSender](https://developer.android.com/reference/kotlin/android/content/IntentSender.html), requestCode: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), @[Nullable](https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html)fillInIntent: [Intent](https://developer.android.com/reference/kotlin/android/content/Intent.html), flagsMask: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), flagsValues: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), extraFlags: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html))
+
+open fun [~~startIntentSenderForResult~~](start-intent-sender-for-result.md)(@[NonNull](https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html)intent: [IntentSender](https://developer.android.com/reference/kotlin/android/content/IntentSender.html), requestCode: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), @[Nullable](https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html)fillInIntent: [Intent](https://developer.android.com/reference/kotlin/android/content/Intent.html), flagsMask: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), flagsValues: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), extraFlags: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), @[Nullable](https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html)options: [Bundle](https://developer.android.com/reference/kotlin/android/os/Bundle.html))
+
+---
+
+### Deprecated
+
+This method has been deprecated in favor of using the Activity Result API which brings increased type safety via an [ActivityResultContract](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContract.html) and the prebuilt contracts for common intents available in [ActivityResultContracts](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContracts.html), provides hooks for testing, and allow receiving results in separate, testable classes independent from your activity. Use [registerForActivityResult](register-for-activity-result.md) passing in a [ActivityResultContracts.StartIntentSenderForResult](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContracts.StartIntentSenderForResult.html) object for the [ActivityResultContract](https://developer.android.com/reference/kotlin/androidx/activity/result/contract/ActivityResultContract.html).
+
+---

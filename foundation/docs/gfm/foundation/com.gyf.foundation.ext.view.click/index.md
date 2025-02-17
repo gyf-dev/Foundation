@@ -1,0 +1,11 @@
+//[foundation](../../index.md)/[com.gyf.foundation.ext.view.click](index.md)
+
+# Package-level declarations
+
+## Functions
+
+| Name | Summary |
+|---|---|
+| [checkRepeat](check-repeat.md) | [androidJvm]<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[checkRepeat](check-repeat.md)(interval: [Long](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-long/index.html) = repeatClickInterval): [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html)<br>判断是否可以点击<br>[androidJvm]<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[checkRepeat](check-repeat.md)(interval: [Long](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-long/index.html) = repeatClickInterval, method: ([View](https://developer.android.com/reference/kotlin/android/view/View.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>判断可以点击后做xxx |
+| [onClick](on-click.md) | [androidJvm]<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[onClick](on-click.md)(listener: [View.OnClickListener](https://developer.android.com/reference/kotlin/android/view/View.OnClickListener.html))<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[onClick](on-click.md)(interval: [Long](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-long/index.html) = repeatClickInterval, method: ([View](https://developer.android.com/reference/kotlin/android/view/View.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html))<br>点击事件的扩展函数 |
+| [onLongClick](on-long-click.md) | [androidJvm]<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[onLongClick](on-long-click.md)(listener: [View.OnLongClickListener](https://developer.android.com/reference/kotlin/android/view/View.OnLongClickListener.html))<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[onLongClick](on-long-click.md)(method: ([View](https://developer.android.com/reference/kotlin/android/view/View.html)) -&gt; [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html))<br>长按点击事件的扩展函数 |

@@ -1,0 +1,11 @@
+//[foundation](../../index.md)/[com.gyf.foundation.ext.typedarray](index.md)
+
+# Package-level declarations
+
+## Functions
+
+| Name | Summary |
+|---|---|
+| [applyAttrChanged](apply-attr-changed.md) | [androidJvm]<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[applyAttrChanged](apply-attr-changed.md)(resourceIdS: [SparseIntArray](https://developer.android.com/reference/kotlin/android/util/SparseIntArray.html)) |
+| [getOr](get-or.md) | [androidJvm]<br>fun [SparseIntArray](https://developer.android.com/reference/kotlin/android/util/SparseIntArray.html).[getOr](get-or.md)(key: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), block: ([Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html)) |
+| [getResourceIdS](get-resource-id-s.md) | [androidJvm]<br>fun [Context](https://developer.android.com/reference/kotlin/android/content/Context.html).[getResourceIdS](get-resource-id-s.md)(attrs: [IntArray](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int-array/index.html), set: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)? = null, defStyleAttr: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, defStyleRes: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0): [SparseIntArray](https://developer.android.com/reference/kotlin/android/util/SparseIntArray.html)<br>fun [View](https://developer.android.com/reference/kotlin/android/view/View.html).[getResourceIdS](get-resource-id-s.md)(attrs: [IntArray](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int-array/index.html) = intArrayOf(), set: [AttributeSet](https://developer.android.com/reference/kotlin/android/util/AttributeSet.html)? = null, defStyleAttr: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0, defStyleRes: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html) = 0): [SparseIntArray](https://developer.android.com/reference/kotlin/android/util/SparseIntArray.html) |

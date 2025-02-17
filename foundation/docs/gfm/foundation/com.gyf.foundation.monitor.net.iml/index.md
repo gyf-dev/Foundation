@@ -1,0 +1,13 @@
+//[foundation](../../index.md)/[com.gyf.foundation.monitor.net.iml](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [INetwork](-i-network/index.md) | [androidJvm]<br>interface [INetwork](-i-network/index.md)<br>网络接口 Network interface |
+| [LollipopNetworkIml](-lollipop-network-iml/index.md) | [androidJvm]<br>@[RequiresApi](https://developer.android.com/reference/kotlin/androidx/annotation/RequiresApi.html)(value = 21)<br>class [LollipopNetworkIml](-lollipop-network-iml/index.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), callback: ([NetworkFormatType](../com.gyf.foundation.monitor.net/-network-format-type/index.md)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html)) : [INetwork](-i-network/index.md)<br>Lollipop及以上版本的网络实现类 Network implementation class for Lollipop and above |
+| [NetworkCallback](-network-callback/index.md) | [androidJvm]<br>@[RequiresApi](https://developer.android.com/reference/kotlin/androidx/annotation/RequiresApi.html)(value = 21)<br>class [NetworkCallback](-network-callback/index.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), callback: ([NetworkFormatType](../com.gyf.foundation.monitor.net/-network-format-type/index.md)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html)) : [ConnectivityManager.NetworkCallback](https://developer.android.com/reference/kotlin/android/net/ConnectivityManager.NetworkCallback.html)<br>网络回调类 Network callback class |
+| [NNetworkIml](-n-network-iml/index.md) | [androidJvm]<br>@[RequiresApi](https://developer.android.com/reference/kotlin/androidx/annotation/RequiresApi.html)(value = 24)<br>class [NNetworkIml](-n-network-iml/index.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), callback: ([NetworkFormatType](../com.gyf.foundation.monitor.net/-network-format-type/index.md)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html)) : [INetwork](-i-network/index.md)<br>N及其以上网络实现类 Network implementation class |
+| [OtherNetwork](-other-network/index.md) | [androidJvm]<br>class [OtherNetwork](-other-network/index.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), callback: ([NetworkFormatType](../com.gyf.foundation.monitor.net/-network-format-type/index.md)) -&gt; [Unit](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html)) : [INetwork](-i-network/index.md)<br>其他网络类 Other network class |

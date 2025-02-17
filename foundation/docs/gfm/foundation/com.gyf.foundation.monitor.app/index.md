@@ -1,0 +1,11 @@
+//[foundation](../../index.md)/[com.gyf.foundation.monitor.app](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [Applications](-applications/index.md) | [androidJvm]<br>data class [Applications](-applications/index.md)(val title: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), val iconDrawable: [Drawable](https://developer.android.com/reference/kotlin/android/graphics/drawable/Drawable.html), val pkg: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html), val cls: [String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html))<br>应用程序数据类 Application data class |
+| [ApplicationsMonitor](-applications-monitor/index.md) | [androidJvm]<br>class [ApplicationsMonitor](-applications-monitor/index.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html)) : [AbsMonitor](../com.gyf.foundation.monitor/-abs-monitor/index.md)&lt;[List](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html)&lt;[Applications](-applications/index.md)&gt;&gt; <br>ApplicationsMonitor类，用于监控应用的变化 ApplicationsMonitor class, used to monitor changes in applications |
+| [Packages](-packages/index.md) | [androidJvm]<br>data class [Packages](-packages/index.md)(val blacklist: [List](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html)&lt;[Packages.PackageInfo](-packages/-package-info/index.md)&gt; = listOf(), val whitelist: [List](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html)&lt;[Packages.PackageInfo](-packages/-package-info/index.md)&gt; = listOf(), val sortListByName: [List](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html)&gt; = listOf(), val sortListByClassName: [List](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-string/index.html)&gt; = listOf())<br>包数据类 Packages data class |

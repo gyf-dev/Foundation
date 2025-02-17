@@ -1,0 +1,14 @@
+//[foundation](../../../../index.md)/[com.gyf.foundation.base.activity.nativer](../../index.md)/[SystemBarStyle](../index.md)/[Companion](index.md)
+
+# Companion
+
+[androidJvm]\
+object [Companion](index.md)
+
+## Functions
+
+| Name | Summary |
+|---|---|
+| [auto](auto.md) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-static/index.html)<br>@[JvmOverloads](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-overloads/index.html)<br>fun [auto](auto.md)(@[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)lightScrim: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), @[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)darkScrim: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), detectDarkMode: ([Resources](https://developer.android.com/reference/kotlin/android/content/res/Resources.html)) -&gt; [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html) = { resources -&gt;                 (resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK) ==                         Configuration.UI_MODE_NIGHT_YES             }): [SystemBarStyle](../index.md)<br>Creates a new instance of [SystemBarStyle](../index.md). This style detects the dark mode automatically. |
+| [dark](dark.md) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [dark](dark.md)(@[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)scrim: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html)): [SystemBarStyle](../index.md)<br>Creates a new instance of [SystemBarStyle](../index.md). This style consistently applies the specified scrim color regardless of the system navigation mode. |
+| [light](light.md) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [light](light.md)(@[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)scrim: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html), @[ColorInt](https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html)darkScrim: [Int](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-int/index.html)): [SystemBarStyle](../index.md)<br>Creates a new instance of [SystemBarStyle](../index.md). This style consistently applies the specified scrim color regardless of the system navigation mode. |
